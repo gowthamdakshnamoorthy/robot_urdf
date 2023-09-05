@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="robot_urdf" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <link name="location_wheel">
+        <visual>
+            <geometry>
+               <sphere radius="2.0" />
+            </geometry>
+            <origin xyz="0'0 0" rpy="0 0 0" />
+            <material name="blue">
+                <color rgba="1 0 0 1" />
+            </material>
+        </visual>
+    </link>
+
+</robot>

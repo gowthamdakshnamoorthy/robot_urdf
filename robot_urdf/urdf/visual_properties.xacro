@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="Orange_Red">
+        <material name="Orange_Red">
+            <color rgba="1 0.325 0.286 1" />
+        </material>
+    </xacro:property>
+    
+    <xacro:property name="Violet_Blue">
+        <material name="Violet_Blue">
+            <color rgba="0.196 0.2902 0.698 1">
+            </color>
+        </material>
+    </xacro:property>
+
+</robot>
